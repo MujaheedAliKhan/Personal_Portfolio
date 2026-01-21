@@ -42,6 +42,6 @@ A personal portfolio responsive website showcasing my skills, projects, and cert
 ## 🌐 Live Demo
 - You can view Portfolio through this link (``).
 
-## License
+## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project does not include a license file. Add an open-source license if you plan to share it publicly.

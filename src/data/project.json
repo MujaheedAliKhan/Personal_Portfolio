@@ -1,0 +1,39 @@
+[
+    {
+        "id" : 1,
+        "title" : "Crypto_Dash",
+        "description": "Crypto Dash is a real-time cryptocurrency dashboard that displays live coin prices, market trends, and historical charts using public crypto APIs.",
+        "techStack":
+            {
+                "Frontend": ["Reactjs", "TailwindCss"]
+            },
+        
+        "image" : "/images/projects/Crypto_Dash.jpg",
+        "live":"https://crypto-dash-eight-xi.vercel.app"
+    },
+    {
+        "id" : 2,
+        "title" : "GitHub_Finder",
+        "description": "GitHub Finder is a React-based application for searching GitHub users.It fetches and displays user profiles and repositories using the GitHub public API.",
+        "techStack":
+            {
+                "Frontend": ["Reactjs", "TailwindCss"]
+            },
+        
+        "image" : "/images/projects/GitHubFinder.png",
+        "live":"https://github-finder-two-olive.vercel.app"
+    },
+    {
+        "id" : 3,
+        "title" : "Idea_Drop",
+        "description": "GitHub Finder is a React-based application for searching GitHub users.It fetches and displays user profiles and repositories using the GitHub public API.",
+        "techStack":
+            {
+                "Frontend": ["Reactjs", "TailwindCss"],
+                "Backend": ["Nodejs", "Expressjs", "MongoDB"]
+            },
+        
+        "image" : "/images/projects/IdeaDrop.jpg",
+        "live":"https://idea-drop-ui-chi.vercel.app"
+    }
+]

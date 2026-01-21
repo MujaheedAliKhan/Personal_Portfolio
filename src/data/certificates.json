@@ -33,5 +33,12 @@
     "description": "For successfully completing six months internship as Fullstack Web Development Intern at Unified Mentor Pvt Ltd. Dated from 15/02/2025 to 15/08/2025.",
     "image": "/images/certificates/Certificate_page.jpg",
     "type":"Internship"
+  },
+  {
+    "id": "6",
+    "title": "PowerBI shorterm Intern",
+    "description": "Power BI is a Microsoft tool used to analyze data and create interactive dashboards and visual reports for better decision-making.",
+    "image": "/images/certificates/PowerBi.jpg",
+    "type":"Internship"
   }
 ]

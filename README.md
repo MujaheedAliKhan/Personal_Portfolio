@@ -23,7 +23,7 @@ A personal portfolio responsive website showcasing my skills, projects, and cert
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone `https://github.com/MujaheedAliKhan/Personal_Portfolio.git`
    cd Portfolio
    ```
 

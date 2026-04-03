@@ -11,7 +11,7 @@ const Certification = () => {
     (cert) => cert.type === activeFilter );
   return (
     <div id='certificate' className='w-full min-h-screen bg-gray-200'>
-      <h1 className='text-center pt-20 text-5xl font-bold text-gray-700'>CERTIFICATION</h1>
+      <h1 className='text-4xl text-center pt-20 sm:text-5xl font-bold text-gray-700'>CERTIFICATION</h1>
 
       {/* Filter Button */}
       <div className='flex justify-center mt-6 gap-4'>
@@ -29,7 +29,7 @@ const Certification = () => {
           </button>
         ))}
       </div>
-      <div className='grid grid-cols-2 md:grid-cols-4 gap-6 p-4 pt-20'>
+      <div className='grid grid-cols-1 md:grid-cols-4 gap-6 p-4 pt-20'>
          {filteredCertificates && filteredCertificates.map((cert, id)=>{
             return (
               <div key={id} className='flex flex-col gap-4 justify-center items-center border border-none bg-gray-100 p-6 shadow-lg rounded-md hover:transform hover:scale-105 duration-200'>

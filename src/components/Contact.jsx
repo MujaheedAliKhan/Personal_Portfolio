@@ -17,9 +17,9 @@ const Contact = () => {
         </div>
       </div>
       {/* middle-side */}
-      <div className='flex flex-col text-center'>
+      <div className='flex flex-col text-center pb-10'>
         <p className='text-white font-bold text-2xl tracking-wider'>Quick Links</p>
-        <ul className='pt-4 flex flex-col justify-items-center gap-2'>
+        <ul className='md:pt-4 flex flex-col justify-items-center gap-2'>
           <li>
           <Link to="about" smooth={true} duration={500}
           className='text-md font-semilight text-gray-400 hover:cursor-pointer hover:underline'>About</Link>

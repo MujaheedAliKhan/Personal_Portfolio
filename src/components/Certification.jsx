@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import certificate from "../data/certificates"
+import { RxExternalLink } from "react-icons/rx";
 import {motion} from 'framer-motion'
 
 const Certification = () => {
@@ -19,20 +20,20 @@ const Certification = () => {
           <button 
           key={filter}
           onClick={() => setactiveFilter(filter)}
-          className={`px-5 py-2 rounded-lg font-semibold transition duration-200
+          className={`px-5 py-2 rounded-lg font-semibold transition duration-200 md:text-md text-sm
               ${
                 activeFilter === filter
                   ? "bg-black text-white shadow-lg"
-                  : "bg-gray-300 text-gray-700 hover:bg-black hover:text-white"
+                  : "bg-white text-gray-700 hover:bg-black hover:text-white shadow-lg"
               }`}>
              {filter}
           </button>
         ))}
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-4 gap-6 p-4 pt-20'>
+      <div className='grid grid-cols-1 md:grid-cols-4 gap-6 p-16 pt-20'>
          {filteredCertificates && filteredCertificates.map((cert, id)=>{
             return (
-              <div key={id} className='flex flex-col gap-4 justify-center items-center border border-none bg-gray-100 p-6 shadow-lg rounded-md hover:transform hover:scale-105 duration-200'>
+              <div key={id} className='flex flex-col gap-4 justify-center items-center border border-gray-300 bg-gray-100 p-10 shadow-lg rounded-md hover:transform hover:scale-105 duration-200'>
                 <img className='w-60 h-40 object-contain' src={cert.image} alt="certificates"/>
                  <p className='text-lg font-bold text-gray-700 text-center'>{cert.title}</p>
                 <p className='text-sm text-gray-500 font-semibold text-center'>{cert.description}</p>
@@ -40,7 +41,7 @@ const Certification = () => {
                 initial={{opacity:0, y:10}}
                 animate={{opacity:1, y:0}}
                 transition={{duration:1, ease:"easeIn"}}
-                href={cert.image} className="px-14 py-3 font-bold flex justify-center items-center border border-none bg-gray-900 text-gray-100 rounded-full shadow-lg hover:bg-gray-800 transition duration-200 tracking-wider" target='_blank' rel='noopener noreferer'>View</motion.a>
+                href={cert.image} className="px-14 py-3 text-xs md:text-md font-bold flex justify-center items-center border border-none bg-gray-900 text-gray-100 rounded-full shadow-lg hover:bg-gray-800 transition duration-200 tracking-wider" target='_blank' rel='noopener noreferer'>View <RxExternalLink  className="ml-2 text-lg"/></motion.a>
                 <p className="text-sm text-gray-500">{cert.type}</p>
               </div>
             )

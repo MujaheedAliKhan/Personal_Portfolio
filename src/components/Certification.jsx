@@ -30,7 +30,7 @@ const Certification = () => {
           </button>
         ))}
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-4 gap-6 p-16 pt-20'>
+      <div className='grid grid-cols-1 md:grid-cols-4 gap-6 p-10 pt-20'>
          {filteredCertificates && filteredCertificates.map((cert, id)=>{
             return (
               <div key={id} className='flex flex-col gap-4 justify-center items-center border border-gray-300 bg-gray-100 p-10 shadow-lg rounded-md hover:transform hover:scale-105 duration-200'>

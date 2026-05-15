@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div id='projects'className='min-h-screen w-full pb-20'>
       <h1 className='text-center pb-8 text-5xl font-bold text-gray-700'>PROJECTS</h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 items-stretch p-10 md:p-4 gap-10 w-full ">
+      <div className="grid grid-cols-1 md:grid-cols-3 items-stretch p-12 md:p-4 gap-10 w-full ">
         {data && data.map((item) => {
             return(
               <div className="pt-6 pb-8 p-4 md:p-6 flex flex-col justify-center items-center border border-gray-300 rounded-lg shadow-2xl bg-white hover:translate-x-1 hover:scale-105 duration-200 delay-100 ease-in-out" key={item.id}>

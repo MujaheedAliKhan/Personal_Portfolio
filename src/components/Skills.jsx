@@ -60,7 +60,7 @@ const Skills = () => {
   return (
     <div id='skills' className='bg-gray-200 min-h-screen w-full pt-10'>
       <h1 className='text-center pt-8 text-5xl font-bold text-gray-700'>SKILLS</h1>
-    <div className='grid grid-cols-1 md:grid-cols-3 items-stretch w-full pt-20 p-10 gap-10 md:pb-20'>
+    <div className='grid grid-cols-1 md:grid-cols-3 items-stretch w-full pt-20 p-6 gap-10 md:pb-20'>
         {skills && skills.map((skill, index) => {
             return(
               <div key={skill.id} className='grid max-w-/[250px] items-stretch border border-gray-300 px-5 py-8 rounded-lg bg-white  shadow-lg transition delay-75 duration-200 ease-in-out hover:scale-105'>
@@ -83,7 +83,7 @@ const Skills = () => {
                    </div>
                     
                     <p className='text-md text-gray-700 font-semibold'>{skill.desc}</p>
-                    <p className='pt-2 text-sm text-gray-600'>{skill.summary}</p>
+                    <p className='pt-2 text-sm text-gray-600 font-semibold'>{skill.summary}</p>
                  </div>
               </div>
             );

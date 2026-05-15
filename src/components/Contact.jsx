@@ -6,7 +6,7 @@ import {BsBriefcaseFill} from 'react-icons/bs';
 const Contact = () => {
   return (
     <>
-    <div id='contact' className='w-full min-h-1/2 pb-20 bg-black'>
+    <div id='contact' className='w-full min-h-1/2 md:pb-20 bg-black'>
     <div className='grid grid-cols-1 gap-10 md:grid-cols-3 justify-items-center md:gap-6 pt-20 p-6'>
       {/* left-side */}
       <div>
@@ -19,7 +19,7 @@ const Contact = () => {
       {/* middle-side */}
       <div className='flex flex-col text-center pb-10'>
         <p className='text-white font-bold text-2xl tracking-wider'>Quick Links</p>
-        <ul className='md:pt-4 flex flex-col justify-items-center gap-2'>
+        <ul className='md:pt-4 flex flex-col justify-items-center gap-2 pt-4'>
           <li>
           <Link to="about" smooth={true} duration={500}
           className='text-md font-semilight text-gray-400 hover:cursor-pointer hover:underline'>About</Link>

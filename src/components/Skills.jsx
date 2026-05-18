@@ -1,15 +1,17 @@
 import React from 'react'
 import { useEffect, useState } from 'react';
-import {FaHtml5, FaCss3Alt, FaJs, FaReact, FaGithubSquare} from 'react-icons/fa' 
+import {FaHtml5, FaCss3Alt, FaJs, FaReact, FaGithubSquare, FaNodeJs} from 'react-icons/fa'
+import {TbBrandNodejs} from "react-icons/tb";
+import {DiMongodb }  from "react-icons/di";
 
 const skills = [
   {
     id:1,
     icon: <FaHtml5/>,
     name: "Html5",
-    desc: "Hyper Text MarkUp Language",
-    summary: "Build semantic, accessible, SEO-friendly web pages",
-    percent: "90",
+    desc: "Structures the content and layout of web pages using elements and tags.",
+    summary: "The foundation of every website, defining its content and structure.",
+    percent: "70",
     list:{
       point1:"One"
     }
@@ -18,24 +20,24 @@ const skills = [
     id:2,
     icon: <FaCss3Alt/>,
     name: "Css3",
-    desc: "Cascading Sytle Sheet",
-    summary: "Style responsive layouts with modern CSS",
+    desc: "Styles and designs web pages with colors, layouts, and responsive effects.",
+    summary: "Controls the visual appearance and responsiveness of websites.",
     percent: "70"
   },
   {
     id:3,
     icon: <FaJs/>,
     name: "JavaScript",
-    desc: "JavaScript",
-    summary: "Add interactivity and logic to web applications",
+    desc: "Adds interactivity and dynamic functionality to web applications.",
+    summary: "The programming language that makes websites interactive and dynamic.",
     percent:"60"
   },
   {
     id:4,
     icon: <FaReact/>,
     name: "Reactjs",
-    desc: "React is a Javascript Library",
-    summary: "Build reusable UI components and SPA",
+    desc: "Builds fast and reusable user interfaces using component-based architecture.",
+    summary: "A powerful JavaScript library for creating modern, dynamic web applications.",
     percent: "50"
   },
   {
@@ -43,9 +45,33 @@ const skills = [
     icon: <FaGithubSquare/>,
     name: "Git & GitHub",
     desc: "Version Control System",
-    summary: "Version control and project collaboration",
+    summary: "GitHub is a platform for storing, managing, and collaborating on code using Git version control.",
     percent:"65"
-  }
+  },
+  {
+    id:6,
+    icon: <FaNodeJs/>,
+    name: "Nodejs",
+    desc: "Handles the backend logic and runs JavaScript on the server.",
+    summary: "Fast and scalable JavaScript runtime for building backend applications.",
+    percent:"40"
+  },
+  {
+    id:7,
+    icon: <TbBrandNodejs/>,
+    name: "Expressjs",
+    desc: "Simplifies creating APIs and managing server routes.",
+    summary: "Lightweight framework for creating APIs and web servers with Node.js.",
+    percent:"40"
+  },
+  {
+    id:8,
+    icon: <DiMongodb/>,
+    name: "MongoDB",
+    desc: "Stores and manages application data in a flexible database.",
+    summary: "Flexible NoSQL database for storing and managing application data.",
+    percent:"35"
+  },
 ];
 
 const Skills = () => {

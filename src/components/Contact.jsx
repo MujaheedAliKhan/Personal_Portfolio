@@ -10,38 +10,38 @@ const Contact = () => {
     <div className='grid grid-cols-1 gap-10 md:grid-cols-3 justify-items-center md:gap-6 pt-20 p-6'>
       {/* left-side */}
       <div>
-        <div className='flex flex-col gap-2 border-r-2 h-40 pr-0 sm:pr-10 md:pr-10 text-center sm:border-gray-400 md:border-gray-400'>
+        <div className='flex flex-col gap-4 border-r-2 h-40 pr-0 sm:pr-10 md:pr-10 text-center sm:border-gray-400 md:border-gray-400'>
           <p className='text-white font-bold text-2xl tracking-widest'>Lavani Mujaheed Ali Khan</p>
-          <p className='text-gray-400 font-light tracking-wide'>Frontend Developer | React Enthusiast</p>
-          <p className='text-gray-400 font-light tracking-wide'>TCS NQT Qualified</p>
+          <p className='text-gray-400 text-sm font-light tracking-wide'>Frontend Developer | React Enthusiast</p>
+          <p className='text-gray-400 text-sm font-light tracking-wide'>TCS NQT Qualified</p>
         </div>
       </div>
       {/* middle-side */}
       <div className='flex flex-col text-center pb-10'>
         <p className='text-white font-bold text-2xl tracking-wider'>Quick Links</p>
-        <ul className='md:pt-4 flex flex-col justify-items-center gap-2 pt-4'>
+        <ul className='md:pt-4 flex flex-col justify-items-center gap-4 pt-4'>
           <li>
           <Link to="about" smooth={true} duration={500}
-          className='text-md font-semilight text-gray-400 hover:cursor-pointer hover:underline'>About</Link>
+          className='text-sm font-semilight text-gray-400 hover:cursor-pointer hover:underline'>About</Link>
           </li>
           <li>
           <Link to="skills" smooth={true} duration={500}
-          className='text-md font-semilight text-gray-400 hover:cursor-pointer hover:underline'>Skills</Link>
+          className='text-sm font-semilight text-gray-400 hover:cursor-pointer hover:underline'>Skills</Link>
           </li>
           <li>
           <Link to="projects" smooth={true} duration={500}
-          className='text-md font-semilight text-gray-400 hover:cursor-pointer hover:underline'>Projects</Link>
+          className='text-sm font-semilight text-gray-400 hover:cursor-pointer hover:underline'>Projects</Link>
           </li>
           <li>
           <Link to="certificate" smooth={true} duration={500}
-          className='text-md font-semilight text-gray-400 hover:cursor-pointer hover:underline'>Certificates</Link>
+          className='text-sm font-semilight text-gray-400 hover:cursor-pointer hover:underline'>Certificates</Link>
           </li>
         </ul>
       </div>
       {/* right side */}
-      <div className='flex flex-col justify-items-center gap-4 border-l-2 h-40 pl-0 sm:pl-30 md:pl-30  sm:border-gray-400 md:border-gray-400'>
+      <div className='flex flex-col justify-center md:items-start items-center gap-4 border-l-2 h-40 pl-0 sm:pl-30 md:pl-30  sm:border-gray-400 md:border-gray-400'>
         <p className='text-white font-bold pr-0 sm:pr-50 text-2xl text-center tracking-wider'>Contact</p>
-        <p className='text-md font-semilight text-gray-400'>lavanimujaheedalikhan@gmail.com</p>
+        <p className='text-sm font-semilight text-gray-400'>lavanimujaheedalikhan@gmail.com</p>
        <div className='flex justify-center items-center gap-4 pt-2 '>
         <a href="https://www.linkedin.com/in/mujaheedalikhan/" target='_blank' rel='noopener noreferer' className='text-2xl p-2 bg-white rounded-full transition duration-200 text-balck hover:bg-gray-800 hover:text-white hover:shadow-white'><FaLinkedin/></a>
         <a href="https://github.com/MujaheedAliKhan" target='_blank' className='text-2xl p-2 bg-white rounded-full transition duration-200 text-balck hover:bg-gray-800 hover:text-white hover:shadow-white'><FaGithub/></a>

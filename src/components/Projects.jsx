@@ -11,7 +11,7 @@ const Projects = () => {
               <div className="pt-6 pb-8 p-4 md:p-6 flex flex-col justify-center items-center border border-gray-300 rounded-lg shadow-2xl bg-white hover:translate-x-1 hover:scale-105 duration-200 delay-100 ease-in-out" key={item.id}>
                   <h1 className="text-2xl text-gray-800 font-bold text-center pb-6">{item.title}</h1>
                   <img 
-                  className="max-w-80 md:w-100 h-40 md:h-60 object-cover gap-8 pb-8 rounded" src={item.image} alt="Crytp_Dash" />
+                  className="max-w-80 md:w-100 h-35 md:h-55 object-cover gap-8 mb-6 rounded-lg" src={item.image} alt="Crytp_Dash" />
                   {/* TechStack For Frontend */}
                   <div className="flex gap-4 ">
                     {item && item.techStack.Frontend.map((skill, id) => {

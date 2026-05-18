@@ -20,6 +20,7 @@ const Aboutme = () => {
               "Frontend Developer..", 2000,
               "JavaScript Enthusiast..", 2000,
               "Responsive Web Designer..", 2000,
+              "Full Stack Enthusiast..", 2000,
               "React Developer.."
             ]}
             speed={10}

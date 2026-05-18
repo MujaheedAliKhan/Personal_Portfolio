@@ -40,5 +40,12 @@
     "description": "Power BI is a Microsoft tool used to analyze data and create interactive dashboards and visual reports for better decision-making.",
     "image": "/images/certificates/PowerBi.jpg",
     "type":"Internship"
+  },
+  {
+    "id": "7",
+    "title": "Frontend Web Developer Modern Html, Css and Javascript",
+    "description": "Frontend Web Developer skilled in modern HTML, CSS, and JavaScript, building responsive, interactive, and user-friendly websites with clean design and smooth functionality.",
+    "image": "/images/certificates/Frontend_Web_Developer.jpg",
+    "type":"Tech"
   }
 ]

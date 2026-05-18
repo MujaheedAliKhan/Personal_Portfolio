@@ -25,15 +25,15 @@
     },
     {
         "id" : 3,
-        "title" : "Idea_Drop",
-        "description": "GitHub Finder is a React-based application for searching GitHub users.It fetches and displays user profiles and repositories using the GitHub public API.",
+        "title" : "Grocery_Shopping_App",
+        "description": "Grocery Shopping App is a full-stack e-commerce web application built with React, Node.js, Express, and MongoDB. It allows users to browse products, add items to cart, place orders, and track purchases, while admins can manage products and orders through a dedicated dashboard.",
         "techStack":
             {
                 "Frontend": ["Reactjs", "TailwindCss"],
                 "Backend": ["Nodejs", "Expressjs", "MongoDB"]
             },
         
-        "image" : "/images/projects/IdeaDrop.jpg",
-        "live":"https://idea-drop-ui-chi.vercel.app"
+        "image" : "/images/projects/Grocery.png",
+        "live":"https://grocery-shopping-app-frontend.vercel.app"
     }
 ]
